@@ -2,13 +2,10 @@
   "name": "react-socket-app",
   "version": "1.0.0",
   "description": "react socket app for meet friends live chat",
-  "main": "index.js",
-  "scripts": {
+  "main": "app/app.js",
     "scripts": {
       "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
     },
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Roger Perez",
   "license": "UNLICENSED",
   "dependencies": {
