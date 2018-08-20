@@ -34,8 +34,6 @@ header {
   font-size: 2rem;
 }
 
-
-
 /**  Navbar **/
 
 header .navbar {
@@ -77,11 +75,6 @@ header .navbar-inverse .navbar-nav>li>a {
   line-height: 160%;
 }
 
-
-
-
-
-
 .form-control {
   font-weight: 100;
   font-size: 1.7rem;
@@ -92,8 +85,6 @@ header .navbar-inverse .navbar-nav>li>a {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
-
-
 
 /**  chat-display **/
 

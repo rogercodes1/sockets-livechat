@@ -21,7 +21,7 @@ $(function() {
   }); //feedback messages
 
   function updateFeedback(data) {
-   var output = '';
+   let output = '';
    $.each(data,function(key, item) {
      output += '     <div class="feedback-item item-list media-list">';
      output += '       <div class="feedback-item media">';
