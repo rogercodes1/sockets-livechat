@@ -11,6 +11,7 @@ app.set('views', 'app/views')
 
 app.locals.siteTitle = 'Express and Socket.Io Demo';
 
+app.use(express.static('app/public'));//Allows for static public folder. We can add images/js, etc afterwards.
 app.use(require('./routes/index'));
 
 let server = app.listen(app.get('port'), ()=>{
