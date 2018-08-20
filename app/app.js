@@ -2,11 +2,9 @@ const express = require('express');
 const reload = require('reload');
 const io = require('socket.io')();
 const app = express()
-const dataFile = require('./data/data.json');
 
 
 app.set('port', process.env.PORT || 8000 );
-app.set('appData', dataFile);
 app.set('view engine', 'ejs')
 app.set('views', 'app/views')
 
