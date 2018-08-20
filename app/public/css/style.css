@@ -77,54 +77,10 @@ header .navbar-inverse .navbar-nav>li>a {
   line-height: 160%;
 }
 
-.sidebar {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  line-height: 130%;
-}
 
-.sidebar .sidebar-title {
-  font-size: 1.5em;
-}
 
-.sidebar .sidebar-body li {
-  margin-bottom: 10px;
-}
 
-@media (max-width: 768px) {
-  .sidebar {
-    line-height: 160%;
-  }
-  .sidebar .sidebar-title {
-    font-size: 2em;
-  }
-}
 
-.speakerslist {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  line-height: 160%;
-}
-
-#speakerList .speakerslist-img {
-  margin-right: 20px;
-}
-
-.speakerslist-title {
-  font-size: 1.7em;
-}
-
-#home .speakerslist-title {
-  font-size: 1.5em;
-}
-
-#speakerDetail .speakerslist-title {
-  font-size: 2.4em;
-}
-
-#speakerDetail .speakerslist-img {
-  margin: 20px 0;
-}
 
 .form-control {
   font-weight: 100;
