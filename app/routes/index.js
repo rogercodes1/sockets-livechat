@@ -43,7 +43,8 @@ router.get('/', function(req, res) {
           </div>
         </div>
       </div>
-
+      <script src="/js/chat.js"></script>
+    <script src="/reload/reload.js"></script>
     `)
 
 });
