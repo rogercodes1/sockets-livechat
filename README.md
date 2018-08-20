@@ -1,5 +1,5 @@
 # Sockets - Live Chat
-Socket.io Live chat applicatoin built to test out websockets. 
+Live chat application built to test out WebSockets using Socket.io. 
 
 
 ## Getting Started
@@ -28,7 +28,7 @@ You will need to have the following installed
 
 ## Built With
 
-* [Node.js](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/) - Run-time environment includes everything you need to execute a program written in JavaScript
 * [Express.js]() - Web application framework used with Node.js. Provides server capabilities
 * [Nodemon](https://www.npmjs.com/package/nodemon) - Utility that will monitor for any changes in your source and automatically restart your server.
 * [Reload](https://github.com/alallier/reload) - Helps create new Express routes
