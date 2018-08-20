@@ -2,8 +2,6 @@ let express = require('express');
 let router = express.Router();
 
 router.get('/', function(req, res) {
-
-
   res.send(`
     <h1>Welcome to Live Chat Demo</h1>
       <div className="container">
