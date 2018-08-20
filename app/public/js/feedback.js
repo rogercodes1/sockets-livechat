@@ -10,7 +10,7 @@ $(function() {
     }, updateFeedback);
   });
 
-  $('.feedback-messages').on('click', function(e) {
+  $('.feedback-messages').on('click', (e)=> {
       if (e.target.className == 'glyphicon glyphicon-remove') {
         $.ajax({
           url: 'api/' + e.target.id,
@@ -21,20 +21,20 @@ $(function() {
   }); //feedback messages
 
   function updateFeedback(data) {
-   let output = '';
+   let dataOutput = '';
    $.each(data,function(key, item) {
-     output += '     <div class="feedback-item item-list media-list">';
-     output += '       <div class="feedback-item media">';
-     output += '       <div class="media-left"><button class="feedback-delete btn btn-xs btn-danger"><span id="' + key + '" class="glyphicon glyphicon-remove"></span></button></div>';
-     output += '         <div class="feedback-info media-body">';
-     output += '           <div class="feedback-head">';
-     output += '             <div class="feedback-title">' + item.title + ' <small class="feedback-name label label-info">' + item.name + '</small></div>';
-     output += '           </div>';
-     output += '           <div class="feedback-message">' + item.message + '</div>';
-     output += '         </div>';
-     output += '       </div>';
-     output += '     </div>';
+     dataOutput += '     <div class="feedback-item item-list media-list">';
+     dataOutput += '       <div class="feedback-item media">';
+     dataOutput += '       <div class="media-left"><button class="feedback-delete btn btn-xs btn-danger"><span id="' + key + '" class="glyphicon glyphicon-remove"></span></button></div>';
+     dataOutput += '         <div class="feedback-info media-body">';
+     dataOutput += '           <div class="feedback-head">';
+     dataOutput += '             <div class="feedback-title">' + item.title + ' <small class="feedback-name label label-info">' + item.name + '</small></div>';
+     dataOutput += '           </div>';
+     dataOutput += '           <div class="feedback-message">' + item.message + '</div>';
+     dataOutput += '         </div>';
+     dataOutput += '       </div>';
+     dataOutput += '     </div>';
    });
-   $('.feedback-messages').html(output);
+   $('.feedback-messages').html(dataOutput);
   }
 });
