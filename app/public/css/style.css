@@ -139,25 +139,3 @@ header .navbar-inverse .navbar-nav>li>a {
 .feedback-item:last-of-type {
   border-bottom: none;
 }
-
-
-/**  pixgrid **/
-
-.pixgrid {
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.pixgrid img {
-  display: block;
-  padding: 5px;
-  float: left;
-  width: 33.33%;
-  border-radius: 10px;
-}
-
-@media (min-width: 500px) and (max-width: 768px) {
-  .pixgrid img {
-    width: 20%;
-  }
-}
