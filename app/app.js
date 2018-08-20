@@ -18,13 +18,13 @@ app.use(require('./routes/api'));
 let server = app.listen(app.get('port'), ()=>{
   console.log("listening on port " + app.get('port'));
 })
-io.attach(server)
+io.attach(server);
 
-io.on('connection', (socket)=> {
+io.on('connection',(socket)=> {
   console.log('User Connected');
 
-  socket.on('disconnect',()=>{
-    console.log('user diconnected');
+  socket.on('postMessage', (data)=>{
+    io.emit('updateMessages', data)
   });
 });
 
