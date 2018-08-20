@@ -2,7 +2,7 @@ let socket = io();
 let chatUsername = document.querySelector('#chat-username');
 let chatMessage = document.querySelector('#chat-message');
 socket.on('connect', function() {
-let chatForm = document.forms.chatForm;
+  let chatForm = document.forms.chatForm;
 
   if (chatForm) {
 
