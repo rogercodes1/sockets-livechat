@@ -20,7 +20,7 @@ You will need to have the following installed
 
 1. `git clone [repo]`
 
-2. `cd into sockets-livechat`
+2. `cd sockets-livechat`
 
 3. `npm install `
 
