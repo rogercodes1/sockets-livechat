@@ -33,7 +33,8 @@ You will need to have the following installed
 * [Nodemon](https://www.npmjs.com/package/nodemon) - Utility that will monitor for any changes in your source and automatically restart your server.
 * [Reload](https://github.com/alallier/reload) - Helps create new Express routes
 * [EJS](http://www.embeddedjs.com/) - Helps creates Embedded Javascripts templates (Views).
-* [Socket.io](https://socket.io/) - Provides the library for instant messaging, Live Chat. 
+* [Socket.io](https://socket.io/) - Provides the library for instant messaging, Live Chat.
+* [Bootstrap](https://getbootstrap.com/) - Used for CSS and NavBar
 
 
 ## Authors
