@@ -1,6 +1,6 @@
 # Sockets - Live Chat
 Socket.io Live chat applicatoin built to test out websockets. 
-Code will be implemented with [MeetFriends](https://github.com/rogercodes1/meet-friends).
+
 
 ## Getting Started
 
