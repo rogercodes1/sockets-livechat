@@ -12,10 +12,18 @@ You will need to have the following installed
 
 ### Installing
 
-`git clone [repo]`
+1. `git clone [repo]`
 
-`cd into sockets-livechat`
+2. `cd into sockets-livechat`
 
-`npm install `
+3. `npm install `
 
-`npm start`
+4. `npm start` - Will begin app on default port :8000
+
+## Built With
+
+* [Node.js](https://nodejs.org/en/)
+* [Express.js]() - Web application framework used with Node.js. Provides server capabilities
+* [Nodemon](https://www.npmjs.com/package/nodemon) - Utility that will monitor for any changes in your source and automatically restart your server.
+* [Reload](https://github.com/alallier/reload) - Helps create new Express routes
+* [EJS](http://www.embeddedjs.com/) - Helps creates Embedded Javascripts templates (Views).
