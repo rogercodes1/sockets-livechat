@@ -1,9 +1,14 @@
 # Sockets - Live Chat
-Demo applicatoin built to test out websockets using Socket.io. 
+Socket.io Live chat applicatoin built to test out websockets. 
+Code will be implemented with [MeetFriends](https://github.com/rogercodes1/meet-friends).
 
 ## Getting Started
 
 The following instructions will get you a copy of the project to test the use of live chatting between two users. 
+
+## How to use
+* Once installation is complete and you are able to see **Name** and **Message** Field you will need to duplicate tab.
+* Once tab is duplicated feel free to test with two different names and begin entering messages. 
 
 ### Prerequisites
 You will need to have the following installed
