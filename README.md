@@ -1,5 +1,5 @@
 # Sockets - Live Chat
-Socket.io Live chat applicatoin built to test out websockets. 
+Live chat application built to test out WebSockets using Socket.io. 
 
 
 ## Getting Started
