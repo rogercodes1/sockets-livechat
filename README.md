@@ -1,6 +1,6 @@
 # Sockets - Live Chat
 Live chat application built to test out WebSockets using Socket.io. 
-
+Want a quick demo? Check out [YouTube Demo](https://www.youtube.com/watch?v=fJIEmRDaB8c)
 
 ## Getting Started
 
