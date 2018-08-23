@@ -10,7 +10,7 @@ app.set('views', 'app/views')
 
 app.locals.siteTitle = 'Express and Socket.Io Demo';
 
-app.use(express.static('app/public'));
+app.use(express.static('app/public')); //used with ejs
 app.use(require('./routes/index'));
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
